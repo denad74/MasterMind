@@ -7,8 +7,8 @@ import Board from './Board';
 const Game = () => {
 
     
-    const colors = ['red', 'green', 'blue', 'orange', 'purple']
-    const trueRowArr= []
+    const colors = ['red', 'green', 'blue', 'orange', 'purple', 'yellow']
+  const trueRowArr = [];
     for (let i = 0; i < 4; i++) {
       trueRowArr.push(colors[Math.floor(Math.random() * 4) + 1])
     }   
@@ -39,10 +39,6 @@ const Game = () => {
     }
     console.log(values.activeColor);
  
-    // this.activateColor = this.activateColor.bind(this)  
-    // this.setColor = this.setColor.bind(this)
-    // this.checkRow = this.checkRow.bind(this)
-    // this.newGame = this.newGame.bind(this)
   
     const setColor = (color, id) => {
         console.log(color);
@@ -142,9 +138,7 @@ const Game = () => {
     for (let i = 0; i < 4; i++) {
       trueRowArr.push(values.colors[Math.floor(Math.random() * 4) + 1])
     }
-
-      
-      
+ 
     setValues({...values, 
       activeRow: 0,
       previousRows: [],

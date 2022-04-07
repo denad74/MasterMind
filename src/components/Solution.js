@@ -18,6 +18,10 @@ const Solution = (props) => {
       <div className={isHidden}>
         <p>Solution:</p>
         {solutionPegs}
+        <div>
+        <a onClick={props.newGame}> Play Again?</a>
+        </div>
+        
       </div>
       <div className={playAgain}>
         <a onClick={props.newGame}> Play Again?</a>

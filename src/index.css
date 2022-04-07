@@ -72,6 +72,11 @@ h2 {
   background-color: #9F66DF;
 }
 
+.colors .yellow,
+.circles .yellow {
+  background-color: #d9d908;
+}
+
 .colors .active {
   border: 2px solid black;
   border-radius: 21px;
@@ -141,7 +146,7 @@ h2 {
 }
 
 .board .hints span.partial {
-  background-color: #DDBB22;
+  background-color: #e0d615;
 }
 
 .solution p {
